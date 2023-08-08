@@ -1,0 +1,19 @@
+1-To be able to play video, dev need to install codec, you can download from below page.
+https://www.codecguide.com/download_kl.htm
+
+2-Steps to mix audio and video
+https://stackoverflow.com/questions/1709574/combine-multiple-videos-into-one
+It can be done with ffmpeg; I've done it myself. That said, it is technically complex. That said, again, it is what any other software you might use is going to do in its core essence.
+
+The process works like this:
+
+Demux audio from source 1 to raw wav
+Demux audio from source 2
+Demux audio from source 3
+Demux video from source 1 to MPEG1
+Demux video from source 2
+Demux video from source 3
+Concatenate audio 1 + audio 2 + audio 3
+Concatenate video 1 + video 2 + video 3
+Mux audio 123 and video 123 into target
+encode to target format
