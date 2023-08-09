@@ -1,5 +1,3 @@
-alazarevicfl@gmail.com
-
 # Qt-OnSiteControlSystem
 Robot network system - Fire fighting control system
 1) Realize a "on-site control system" to support: realize the unified deployment, deployment and control of the company's robots at the actual combat site
