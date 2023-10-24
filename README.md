@@ -7,6 +7,7 @@ Connect to the drone camera and display by Hikvision camera SDK.
 Control the robot/dron by using joystic.
 Muticast the state to other user by using RTMP.
 Connect to the manage web server and recieve/send state by REST API. 
+
 ![5-1](https://github.com/Aleksandar-Lazarevic/Qt-OnSiteControlSystem/assets/135633702/098850ee-a789-49b1-aafd-7ef021886520)
 
 
